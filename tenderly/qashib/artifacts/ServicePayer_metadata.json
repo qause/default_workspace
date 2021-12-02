@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Implementation of the ServicePayer",
+			"kind": "dev",
+			"methods": {},
+			"title": "ServicePayer",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tenderly/qashib/SimpleBEP20.sol": "ServicePayer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tenderly/qashib/SimpleBEP20.sol": {
+			"keccak256": "0xf4689288371414a120ce81059b47be3d3444ae650533d868fe15928d725ba81e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87abe0caca94d35ee625dc121db85c86b4c742da8835d8d0fd56b88d89ffa11c",
+				"dweb:/ipfs/QmVcBZx6SSj6jEmMJ5gKK8bznQTUVQ4wPHTUCwMCRm65cA"
+			]
+		}
+	},
+	"version": 1
+}

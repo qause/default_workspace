@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "version_",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "generator",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "BEP20 Generator (https://vittominacori.github.io/bep20-generator)",
+			"details": "Implementation of the GeneratorCopyright",
+			"kind": "dev",
+			"methods": {
+				"generator()": {
+					"details": "Returns the token generator tool."
+				},
+				"version()": {
+					"details": "Returns the token generator version."
+				}
+			},
+			"title": "GeneratorCopyright",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tenderly/qashib/SimpleBEP20.sol": "GeneratorCopyright"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tenderly/qashib/SimpleBEP20.sol": {
+			"keccak256": "0xf4689288371414a120ce81059b47be3d3444ae650533d868fe15928d725ba81e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87abe0caca94d35ee625dc121db85c86b4c742da8835d8d0fd56b88d89ffa11c",
+				"dweb:/ipfs/QmVcBZx6SSj6jEmMJ5gKK8bznQTUVQ4wPHTUCwMCRm65cA"
+			]
+		}
+	},
+	"version": 1
+}
